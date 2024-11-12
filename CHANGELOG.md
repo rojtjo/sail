@@ -1,6 +1,13 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/sail/compare/v1.37.1...1.x)
+## [Unreleased](https://github.com/laravel/sail/compare/v1.38.0...1.x)
+
+## [v1.38.0](https://github.com/laravel/sail/compare/v1.37.1...v1.38.0) - 2024-11-11
+
+* fix: Use xdg-open if open does not exist by [@rqpt](https://github.com/rqpt) in https://github.com/laravel/sail/pull/744
+* Add MongoDB extension and service by [@GromNaN](https://github.com/GromNaN) in https://github.com/laravel/sail/pull/748
+* fix: Sail share 504 timeout fix for linux hosts by [@rqpt](https://github.com/rqpt) in https://github.com/laravel/sail/pull/709
+* Use equals sign (=) instead of space as ENV variable separator by [@jpkleemans](https://github.com/jpkleemans) in https://github.com/laravel/sail/pull/753
 
 ## [v1.37.1](https://github.com/laravel/sail/compare/v1.37.0...v1.37.1) - 2024-10-29
 
